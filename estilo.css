@@ -1,0 +1,39 @@
+a {
+    padding: 20px;
+    color: ghostwhite;
+}
+title {
+    text-align: center;
+    font-size:bold ;
+    color: aliceblue;
+}
+p {
+    text-align: center;
+    color: azure;
+}
+html{
+    background:url(Assets/download.jpg);
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-style: oblique;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    width: 25%;
+
+}
