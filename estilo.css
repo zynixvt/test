@@ -37,3 +37,13 @@ video {
     border: solid 2px aliceblue;
     border-radius: 10px;
 }
+a:hover {
+    color: rgb(183, 180, 180);
+}
+#robo {
+    text-align: center;
+}
+li {
+    text-align: center;
+    color: white;
+}
