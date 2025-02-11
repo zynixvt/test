@@ -29,11 +29,11 @@ h2 {
     color: white;
 }
 video {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: auto;
     width: 25%;
-
+    border: solid 2px aliceblue;
+    border-radius: 10px;
 }
