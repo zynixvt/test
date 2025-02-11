@@ -41,7 +41,9 @@ a:hover {
     color: rgb(183, 180, 180);
 }
 #robo {
+    display: block;
     text-align: center;
+    font-size: 20px;
 }
 li {
     text-align: center;
