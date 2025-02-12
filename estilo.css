@@ -58,3 +58,7 @@ li {
     border: solid 2px aliceblue;
     border-radius: 10px;
 }
+#bro{
+    padding: 2px;
+    border: 5px solid rgb(0, 183, 255);
+}
