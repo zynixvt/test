@@ -1,6 +1,8 @@
 a {
     padding: 20px;
     color: ghostwhite;
+    display: inline-block; /* Asegura que el enlace sea tratado como un bloque en línea */
+    transition: transform 0.2s, color 0.2s; /* Define la transición en el estado normal */
 }
 title {
     text-align: center;
@@ -39,9 +41,9 @@ a {
     transition: transform 0.2s, color 0.2s;
 }
 a:hover {
-    color: rgb(177, 5, 5);
-    transform: scale(1.1);
-    transition: transform 0.2s;
+    color: rgb(255, 0, 0); /* Cambia el color al pasar el mouse */
+    transform: scale(1.1);  
+    transition: transform 0.2s, color 0.2s;
 }
 #robo {
     display: inline-block;
@@ -81,3 +83,5 @@ blockquote:hover, iframe:hover, video:hover {
     transition: opacity 0.5s ease-in-out;
     pointer-events: none;
 }
+
+  
