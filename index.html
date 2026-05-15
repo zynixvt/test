@@ -1,46 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <link rel="stylesheet" href="estilo.css">
+        <link rel="icon" href="Assets/Sashley.jpg">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Test</title>
-        <webicon href="Assets/Sashley.jpg"></webicon>
+        <title>PERSONAL</title>
     </head>
     <body>
+        <canvas id="particles"></canvas>
+
+        <nav id="navbar">
+            <a href="#videos">Videos</a>
+            <a href="#musica">Música FNF</a>
+            <a href="#avisos">Avisos</a>
+        </nav>
+
+        <button id="back-to-top" aria-label="Volver arriba">↑</button>
+
         <div id="todo_el_contenido">
-            <center>
-            <h1 class="fade">te quiro mucho papi</h>
-                <a class="fade" href="https://youtu.be/Rayxb-Uflfw">Bob esponja</a>
-                <h2 class="fade">siga al enlace<h2>
-                <p class="fade"> | <br>
-                    |<br>
-                    v</p><br>
-                <p class="fade">Selecciona el correcto</p>
-                <a class="fade" href="https://youtu.be/p2CG93XrlHw?si=1sLfjLy8DPvErbTF" target="_blank">AQUI</a>
-                <a class="fade" href="https://youtu.be/AeBrolfD0yA?si=wZDW6ip183N4liKv" target="_blank">AQUI</a><hr>
-                <video class="fade" src="Assets/DONDE ESTA MI HAMBURGUESA 🗣️🗣️_viraltiktok _viral_video _apoyo _subiendomemescadadia1(MP4).mp4" controls autoplay></video><br>
-                <iframe class="fade" width="560" height="315" src="https://www.youtube.com/embed/sYuKxwo-7Sw?si=-gIq2UhIEsPynEvL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
-                <iframe class="fade" width="560" height="315" src="https://www.youtube.com/embed/kqejYrjVuNk?si=GPKAfnU72u94f6MR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
-                <li class="fade" >Fnf Musicas</li>
-                <a class="fade" href="https://youtu.be/ffjtiJR3j4Q?si=6RF7s8QcPABhepAK">BANGER - FNF: Voiid Chronicles [ OST ]</a><br>
-                <a class="fade" href="https://youtu.be/cywIrV_F4M8?si=rp7Q8reWhOJl7DVs">RUCKUS - FNF: Voiid Chronicles [ OST ]</a><br>
-                <a class="fade" href="https://youtu.be/D4n7wSgNUys?si=y1xmirvyf1bEZ2JC">Come Along With me - FNF: pibby apocalipse</a><br>
-                <a class="fade" href="https://youtu.be/y4Kj-H8eNrM">Boxing Match (Instrumental) - Voiid Chronicles FNF OST</a>
-                <h2 class="fade" >¡¡Avisos¡¡</h2>
-                <a class="fade" href="Assets/trauma.jpg" target="_blank" id="robo">me robaron mi telefono <br> mi reaccion:</a>
-                <br>
-                <h2>¡¡proximos implementos¡¡</h2><br>
-                <div id="proximos" class="fade" >
-                    <li>mas animaciones y cambio de estilos</li>
-                    <li>Mas videos</li>
-                    <li>caja de comentarios</li>
+            <h1 class="fade">Personal</h1>
+
+            <section id="videos" class="seccion">
+                <h2 class="fade seccion-titulo">Videos</h2>
+
+                <div class="card fade">
+                    <p>link?</p>
+                    <a href="https://youtu.be/Rayxb-Uflfw" target="_blank">escojer 1</a>
+                    <p class="flecha">↓</p>
+                    <p>Selecciona el correcto</p>
+                    <div class="botones-grupo">
+                        <a href="https://youtu.be/p2CG93XrlHw?si=1sLfjLy8DPvErbTF" target="_blank" class="btn">AQUI</a>
+                        <a href="https://youtu.be/AeBrolfD0yA?si=wZDW6ip183N4liKv" target="_blank" class="btn">AQUI</a>
+                    </div>
                 </div>
-                <video class="fade" src="Assets/ANIMATION.mp4" controls ></video><br>
-                <iframe class="fade"class="fade" width="560" height="315" src="https://www.youtube.com/embed/gg2kxw2qOPs?si=qjYa05CzLqCYRKIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <h1 class="fade" >Que es? 💀💀</h1>
-                <iframe  class="fade" width="560" height="315" src="https://www.youtube.com/embed/4VfD rSi9rmo?si=ljDTagdNZt3lJLnj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </center>
+
+                <div class="card fade">
+                    <p>¿Donde está mi hamburguesa? 🗣️</p>
+                    <video src="Assets/DONDE ESTA MI HAMBURGUESA 🗣️🗣️_viraltiktok _viral_video _apoyo _subiendomemescadadia1(MP4).mp4" controls autoplay muted></video>
+                </div>
+
+                <div class="card fade">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sYuKxwo-7Sw?si=-gIq2UhIEsPynEvL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="card fade">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kqejYrjVuNk?si=GPKAfnU72u94f6MR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="card fade">
+                    <h2>Que es? 💀💀</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gg2kxw2qOPs?si=qjYa05CzLqCYRKIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="card fade">
+                    <p>Animación</p>
+                    <video src="Assets/ANIMATION.mp4" controls></video>
+                </div>
+            </section>
+
+            <section id="musica" class="seccion">
+                <h2 class="fade seccion-titulo">🎵 Músicas FNF</h2>
+                <div class="card fade musica-lista">
+                    <a href="https://youtu.be/ffjtiJR3j4Q?si=6RF7s8QcPABhepAK" target="_blank">BANGER - FNF: Voiid Chronicles [ OST ]</a>
+                    <a href="https://youtu.be/cywIrV_F4M8?si=rp7Q8reWhOJl7DVs" target="_blank">RUCKUS - FNF: Voiid Chronicles [ OST ]</a>
+                    <a href="https://youtu.be/D4n7wSgNUys?si=y1xmirvyf1bEZ2JC" target="_blank">Come Along With me - FNF: pibby apocalipse</a>
+                    <a href="https://youtu.be/y4Kj-H8eNrM" target="_blank">Boxing Match (Instrumental) - Voiid Chronicles FNF OST</a>
+                </div>
+            </section>
+
+            <section id="avisos" class="seccion">
+                <h2 class="fade seccion-titulo">⚠️ Avisos</h2>
+                <div class="card fade">
+                    <a href="Assets/trauma.jpg" target="_blank" id="robo">me robaron mi telefono 😭<br>mi reaccion:</a>
+                </div>
+
+                <div class="card fade" id="proximos">
+                    <h2>Próximos implementos</h2>
+                    <ul>
+                        <li>Más animaciones y cambio de estilos</li>
+                        <li>Más videos</li>
+                        <li>Caja de comentarios ✅ (ya está abajo)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="comentarios" class="seccion">
+                <h2 class="fade seccion-titulo">💬 Comentarios</h2>
+                <div class="card fade">
+                    <form id="form-comentario">
+                        <input type="text" id="nombre-input" placeholder="Tu nombre" maxlength="30" required>
+                        <textarea id="comentario-input" placeholder="Escribe tu comentario..." maxlength="300" required></textarea>
+                        <button type="submit" class="btn">Comentar</button>
+                    </form>
+                    <div id="lista-comentarios"></div>
+                </div>
+            </section>
         </div>
+
         <script src="comportamiento.js"></script>
+    </body>
 </html>
